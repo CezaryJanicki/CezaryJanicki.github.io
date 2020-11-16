@@ -4,7 +4,10 @@ html {
   font-size: 16px;
   font-weight: normal;
   margin: 0;
-  padding: 0; }
+  padding: 0; 
+  color: #EFF1F3;
+  text-align: left;
+  }
 
 input,
 textarea {
@@ -16,7 +19,13 @@ textarea {
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0; 
+  background-image: url("https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x784/7cb209e4d725619ddfd78f848874a299/photo-1605041176777-23275b7a1410.jpg");
+  background-position: center;
+  background-repeat: repeat-y;
+  height: 100%;
+  background-size: cover;
+  }
 
 *,
 *::before,
@@ -87,11 +96,13 @@ body {
 
 .datatable__row--add input,
 .datatable__row--add textarea {
-  display: block; }
+  display: block; 
+	text-align: left;}
 
 .datatable__field-value {
   margin-bottom: 0;
-  font-size: 14px; }
+  font-size: 14px; 
+  text-align: left;}
 
 .datatable__row-section {
   border: none;
@@ -118,8 +129,8 @@ body {
   letter-spacing: 0.6px; }
 
 .datatable__button {
-  color: #fff;
-  background-color: #28a745;
+  color: #FFF;
+  background-color: #D77A61;
   display: block;
   margin-bottom: 5px;
   font-weight: 400;
